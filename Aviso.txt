@@ -1,0 +1,2 @@
+Eu usei o aplicativo xamp para criação do banco de dados, você pode usar outro, mas lembre de usar as mesmas tabelas, a tablea "tasks" 
+tem uma dependencia de chave estrangeira com a tabela "proects" o "id_Project" está vinculado ao id da tabela "proects" e a conexão é somente local.
