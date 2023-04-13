@@ -1,3 +1,3 @@
 Eu usei o aplicativo xamp para criação do banco de dados, você pode usar outro, mas lembre de usar as mesmas tabelas, ou edite o codigo, a tabela "tasks" 
 tem uma dependencia de chave estrangeira com a tabela "proects" o "id_Project" está vinculado ao id da tabela "proects" e a conexão é somente local.
-Os icones da UI foram feitos por mim usando o Krita
+Os icones da UI foram feitos por mim usando o Krita.
