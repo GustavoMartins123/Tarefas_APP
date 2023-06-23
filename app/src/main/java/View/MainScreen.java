@@ -410,6 +410,7 @@ public class MainScreen extends javax.swing.JFrame {
                 {
                     taskController.RemoveById(task.getId());
                     taskModel.getTasks().remove(task);
+                    JOptionPane.showMessageDialog(rootPane, "Excluido com sucesso");
                 }
                 else
                 {
@@ -432,7 +433,7 @@ public class MainScreen extends javax.swing.JFrame {
             if(resposta == JOptionPane.YES_OPTION)
             {
                 projectController.RemoveById(project.getId());
-                JOptionPane.showMessageDialog(rootPane, "Projeto excluído com sucesso");
+                JOptionPane.showMessageDialog(null, "Projeto excluído com sucesso");
             }
             else
             {
